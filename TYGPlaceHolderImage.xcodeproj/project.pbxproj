@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08BB7DD41D0D0CD7009705E8 /* TYGPlaceholderHelperImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BB7DD31D0D0CD7009705E8 /* TYGPlaceholderHelperImage.png */; };
+		08BB7DD41D0D0CD7009705E8 /* TYGPlaceholderHelperImage2.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BB7DD31D0D0CD7009705E8 /* TYGPlaceholderHelperImage2.png */; };
+		08BB7DD61D0D5811009705E8 /* TYGPlaceholderHelperImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 08BB7DD51D0D5811009705E8 /* TYGPlaceholderHelperImage.png */; };
 		08CD44C81CFE81FE00722CC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CD44C71CFE81FE00722CC4 /* main.m */; };
 		08CD44CB1CFE81FE00722CC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CD44CA1CFE81FE00722CC4 /* AppDelegate.m */; };
 		08CD44CE1CFE81FE00722CC4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CD44CD1CFE81FE00722CC4 /* ViewController.m */; };
@@ -19,7 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		08BB7DD31D0D0CD7009705E8 /* TYGPlaceholderHelperImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TYGPlaceholderHelperImage.png; sourceTree = "<group>"; };
+		08BB7DD31D0D0CD7009705E8 /* TYGPlaceholderHelperImage2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TYGPlaceholderHelperImage2.png; sourceTree = "<group>"; };
+		08BB7DD51D0D5811009705E8 /* TYGPlaceholderHelperImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TYGPlaceholderHelperImage.png; sourceTree = "<group>"; };
 		08CD44C31CFE81FE00722CC4 /* TYGPlaceHolderImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYGPlaceHolderImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08CD44C71CFE81FE00722CC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		08CD44C91CFE81FE00722CC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -91,7 +93,8 @@
 		08CD44DD1CFE822000722CC4 /* Class */ = {
 			isa = PBXGroup;
 			children = (
-				08BB7DD31D0D0CD7009705E8 /* TYGPlaceholderHelperImage.png */,
+				08BB7DD31D0D0CD7009705E8 /* TYGPlaceholderHelperImage2.png */,
+				08BB7DD51D0D5811009705E8 /* TYGPlaceholderHelperImage.png */,
 				08CD44E11CFE8BAA00722CC4 /* TYGPlaceholderHelper.h */,
 				08CD44E21CFE8BAA00722CC4 /* TYGPlaceholderHelper.m */,
 				08CD44E41CFE8C8300722CC4 /* UIImageView+TYGPlaceholder.h */,
@@ -157,8 +160,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08BB7DD61D0D5811009705E8 /* TYGPlaceholderHelperImage.png in Resources */,
 				08CD44D61CFE81FE00722CC4 /* LaunchScreen.storyboard in Resources */,
-				08BB7DD41D0D0CD7009705E8 /* TYGPlaceholderHelperImage.png in Resources */,
+				08BB7DD41D0D0CD7009705E8 /* TYGPlaceholderHelperImage2.png in Resources */,
 				08CD44D31CFE81FE00722CC4 /* Assets.xcassets in Resources */,
 				08CD44D11CFE81FE00722CC4 /* Main.storyboard in Resources */,
 			);

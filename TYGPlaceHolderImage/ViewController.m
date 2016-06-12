@@ -36,6 +36,8 @@
 - (void)drawMainView{
     
     TYGPlaceholderHelper *place = [TYGPlaceholderHelper sharedInstance];
+    place.fillColor = [UIColor lightGrayColor];
+    place.cellImage = [UIImage imageNamed:@"TYGPlaceholderHelperImage"];
 
     self.image100.image = [place placeholderImageWithSize:self.image100.frame.size text:nil];
     self.image101.image = [place placeholderImageWithSize:self.image101.frame.size text:nil fillColor:[UIColor grayColor]];
@@ -62,9 +64,15 @@
     [self.image201 fillWithPlaceholderImageAndText:@"图片还在路上2" fillColor:[UIColor brownColor]];
     [self.image202 fillWithPlaceholderImageAndText:@"图片还在路上2" fillColor:[UIColor brownColor]];
 
+    
+    TYGPlaceholderHelper *place = [TYGPlaceholderHelper sharedInstance];
+    place.fillColor = [UIColor colorWithRed:0.95 green:0.96 blue:0.97 alpha:1.00];
+    place.cellImage = [UIImage imageNamed:@"TYGPlaceholderHelperImage2"];
+    
+    
     [self.image300 fillWithPlaceholderImage];
     [self.image301 fillWithPlaceholderImageAndFillColor:[UIColor magentaColor]];
-    [self.image302 fillWithPlaceholderImageWithCellImage:[UIImage imageNamed:@"TYGPlaceholderHelperImage"] cellImageScale:0.9 fillColor:[UIColor magentaColor]];
+    [self.image302 fillWithPlaceholderImageWithCellImage:[UIImage imageNamed:@"TYGPlaceholderHelperImage2"] cellImageScale:0.9 fillColor:[UIColor colorWithRed:0.95 green:0.96 blue:0.97 alpha:1.00]];
     [self.image303 fillWithPlaceholderImage];
 
 }
